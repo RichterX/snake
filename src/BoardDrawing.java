@@ -166,7 +166,7 @@ public class BoardDrawing extends JPanel {
 
     }
 
-    private void draw_player(int i, Graphics2D g2d, Rectangle cell, int cellWidth, int cellHeight) {
+    private void draw_player(int i, Graphics2D g2d, Rectangle cell, int cellWidth, int cellHeight) { 
         //draw player position
         for (int pl = 0; pl < bs.maxPlayers; pl++) {
             if (bs.players.get(pl).getPosition() == cellnos[i]) {                         //only one player considered here

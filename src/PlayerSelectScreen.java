@@ -36,7 +36,7 @@ public class PlayerSelectScreen extends JPanel {
             m = 1;
         } else if (opt2.isSelected()) {
             m = 2;
-        } else if (opt3.isSelected()) {
+        } else if (opt3.isSelected()) { 
             m = 3;
         }
         mw.s4.setMaxPlayers(m);

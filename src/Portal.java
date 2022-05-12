@@ -10,7 +10,7 @@ public class Portal {
 
     public Portal(int maxCells) {   //creates random portals
         Random luck = new Random();
-        start = luck.nextInt(maxCells);
+        start = luck.nextInt(maxCells); 
         end = luck.nextInt(maxCells);
         if (start < end) {
             nature = 1;

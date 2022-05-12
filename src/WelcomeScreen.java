@@ -23,7 +23,7 @@ public class WelcomeScreen extends JPanel {
     }
 
     public void quitButtonActionListener() {
-        if (JOptionPane.showConfirmDialog(this, ARE_YOU_SURE) == JOptionPane.OK_OPTION) {
+        if (JOptionPane.showConfirmDialog(this, ARE_YOU_SURE) == JOptionPane.OK_OPTION) { 
             System.exit(0);
         }
     }

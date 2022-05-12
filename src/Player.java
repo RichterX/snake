@@ -7,6 +7,7 @@ public class Player {
     private int playerPosn;
     private int playerScore;
     private Color playerColor;
+    private int nada;
 
     public Player(int no) {
         name = "Player " + no;
@@ -41,7 +42,7 @@ public class Player {
         playerScore += a;
     }
 
-    public int getPlayerScore() {
+    public int getPlayerScore() { 
         return playerScore;
     }
 
